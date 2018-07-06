@@ -13,6 +13,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(@RequestParam String name){
-        return "hello"+name+", this is first message";
+        return "hello"+name+", this is second message";
     }
 }
